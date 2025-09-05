@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "labels": [
+    {
+      "id": "urgente",
+      "nombre": "Urgente",
+      "color": "#ef4444"
+    },
+    {
+      "id": "bug",
+      "nombre": "Bug",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "mejora",
+      "nombre": "Mejora",
+      "color": "#22c55e"
+    }
+  ],
+  "boards": [
+    {
+      "id": "general",
+      "nombre": "General",
+      "color": "#3b82f6",
+      "columnas": [
+        "pendiente",
+        "iniciado",
+        "enviado",
+        "calificado"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "nvtxl7g1qimf7bu837",
+      "boardId": "general",
+      "titulo": "¡Bienvenido!",
+      "descripcion": "Edita, arrastra y suelta.",
+      "estado": "pendiente",
+      "etiquetas": [
+        "mejora"
+      ],
+      "vencimiento": "2025-09-05",
+      "icono": "📄",
+      "orden": 0,
+      "creadoAt": "2025-09-05T21:08:14.323Z"
+    },
+    {
+      "id": "ym4zriq6zhmf7bvvmq",
+      "boardId": "general",
+      "titulo": "llevar furgo al taller",
+      "descripcion": "9h\nGaraje Villareal",
+      "estado": "pendiente",
+      "etiquetas": [
+        "urgente"
+      ],
+      "vencimiento": "2025-09-09",
+      "icono": "🔧",
+      "orden": 1757106571490,
+      "creadoAt": "2025-09-05T21:09:31.490Z"
+    }
+  ]
+}
